@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/nom-de-votre-app",
+  "outputDirectory": "dist/gfe-hero-section",
   "rewrites": [
     {
       "source": "/(.*)",
