@@ -17,8 +17,9 @@
       </div>
     </div>
   </div>
-  <img
-    src="assets/hero-image.png"
-    alt="Banner image for hero section"
-    class="hero-section__banner" />
+  <picture class="hero-section__banner" alt="Banner image for hero section">
+    <source media="(min-width: 1024px)" srcset="assets/hero-desktop.png">
+    <source media="(min-width: 768px)" srcset="assets/hero-tablet.png">
+    <img src="assets/hero-image.png" alt="Banner image">
+  </picture>
 </section>
