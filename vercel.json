@@ -1,6 +1,6 @@
 {
   "buildCommand": "ng build",
-  "outputDirectory": "dist/hero-section",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
